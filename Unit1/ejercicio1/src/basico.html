@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <title>Elementos Basicos de HTML</title>
 </head>
 <body>
@@ -13,7 +13,7 @@
     <p>Existen seis niveles y se utilizan con el elemento h, el
         nivel 1 es el mas alto y el 6 el mas bajo
     </p>
-    <br><br>
+    <br/><br/>
     <h2>Listas</h2>
     <h3>Listas Desordenadas</h3>
     <ul>
@@ -27,9 +27,9 @@
         <li>OSX</li>
         <li>Linux</li>
     </ol>
-    <br><br>
+    <br/><br/>
     <h2>Tablas</h2>
-    <table>
+    <table border="1px">
         <tr>
             <th>Grupo</th>
             <th>Nombre</th>
@@ -46,5 +46,27 @@
             <td>Maria@hotmail.com</td>
         </tr>
     </table>
+    <br/><br/>
+    <h2>Formularios</h2>
+    <form action="">
+        <div>
+            <label for="name">Nombre</label>
+            <input type="text" name="name" id="name" />
+        </div>
+        <br/>
+        <div>
+            <label for="mail">Correo</label>
+            <input type="email" name="mail" id="mail">
+        </div>
+        <br/>
+        <div>
+            <label for="comments">Comentarios</label>
+            <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+        </div>
+        <br/>
+        <div>
+            <button id="send">Enviar</button>
+        </div>
+    </form>
 </body>
 </html>
