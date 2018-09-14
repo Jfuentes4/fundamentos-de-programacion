@@ -1,2 +1,23 @@
 p {
-    color: blue;}
+    color: blue;
+    width: 500px;
+    border: 1px solid black;
+    /*margin: auto;*/
+}
+
+#niveles {
+    background: yellow;
+    font-family: 'Gamja Flower', Helvetica;
+    padding: 20px 40px;
+    border: 2px dashed blue;
+    margin: o auto;
+}
+#niveles:hover {
+    color: purple;
+    border: 2px solid blue;
+}
+
+.diferente{
+    color: red;
+    border: 2px solid blue;
+}
