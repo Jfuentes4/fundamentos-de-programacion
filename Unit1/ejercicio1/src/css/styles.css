@@ -1,0 +1,44 @@
+body{
+    background: #01DF74;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+#form1{
+    width: 60%;
+    height: 700px;
+    margin: 100px auto;
+}
+
+#input-wrapper{
+    width: 100%;
+}
+
+#form-head{
+    width: 100%;
+}
+
+#form_head p{
+    display: block;
+}
+
+#form-head #icon{
+    width: 8%;
+    margin: 1%;
+    float: left;
+}
+#form-head #title{ 
+    float: left;
+    width: 90%;
+}
+
+#input-name{
+    width: 50%;
+    float: left;
+}
+
+#input_mail{
+    width: 50%;
+    float: left;
+}
