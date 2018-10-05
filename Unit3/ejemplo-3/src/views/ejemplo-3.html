@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/ejemplo-3.css">
+    <title>Ejemplo 3</title>
+</head>
+<body>
+    <form action="#" method="POST">
+        <div>
+            <label for="numero1">Numero 1</label>
+            <input type="number" name="numero1" id="numero1" required>
+        </div>
+
+        <div>
+            <button id="btnEvaluar" type="button">evaluar</button>
+        </div>
+        <div>
+            <select name="opciones" id="opciones">
+                <option value="">--selecciona una opcion--</option>
+                <option value="mitad">Calcular la mitad</option>
+                <option value="cuadrado">Elevar al Cuadrado</option>
+                <option value="cubo">Elevar al cubo</option>
+                <option value="par">¿El numero es par?</option>
+            </select>
+        </div>
+    </form>
+    <p id="resultado"></p>
+</body>
+<script src="../js/ejemplo-3.js"></script>
+</html>
